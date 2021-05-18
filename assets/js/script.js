@@ -22,6 +22,8 @@ const dibujarData = (data) => {
     html += `<img src="${pj.image}" class="card-img-top" alt="...">`;
     html += '<div class="card-body">';
     html += `<h4 class="card-title">${pj.name}</h4>`;
+    html += `<h6 class="card-title">Origin: ${pj.origin.name}</h6>`;
+    html += `<h6 class="card-title">Status: ${pj.status}</h6>`;
     html += `<p class="card-text">${pj.gender}</p>`;
     html += "</div>";
     html += "</div>";
