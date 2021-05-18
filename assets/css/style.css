@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.divHeader {
+    width: 100%;
+} 
+.divHeader h1{
+    font-size: 50px;
+}
+.divHeader .header {
+    background-color: rgb(202, 13, 0);
+    height: 120px;
+    color: rgb(255, 255, 255);
+}
+.styleContent{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.container {
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: rgb(202, 13, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding: 20px 20px 5px;
+}
